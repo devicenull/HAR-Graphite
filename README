@@ -1,0 +1,5 @@
+Simple tool that uses phantomjs's netsniff.js to graph page load times.  You will need to define a list of sites in $pages, and edit the CARBON_SERVER and CARBON_PORT values.
+
+Trickle (http://monkey.org/~marius/pages/?page=trickle) is used to simulate a slow internet connection, as the page load times on a 100mbit connection really don't matter too much.
+
+HAR parsing came from https://github.com/vvuksan/fantomtest
